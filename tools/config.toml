@@ -14,3 +14,4 @@ calibrationDir = "/calibration_image"  #This must be the relative path not the a
 calibrationLive = true 
 imageFilePrefix = "img" 
 generateCalibrationBoard  = false
+calibrationOutput = "camera_calibration.yaml"  #Written next to this config file
