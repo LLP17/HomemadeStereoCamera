@@ -1,0 +1,16 @@
+[camera] 
+cameraId = 0
+resolution = [2592,1944]
+
+[calibration_board]
+type = 'Charuco' #Possible Options 'Chessboard', 'Charuco' 
+gridColumns = 7 
+gridRows = 5 
+gridSquareSize =  40 #Grid Square Size measured in mm
+markerLength = 22
+
+[script]
+calibrationDir = "/calibration_image"  #This must be the relative path not the absolute path of the directory
+calibrationLive = true 
+imageFilePrefix = "img" 
+generateCalibrationBoard  = false
